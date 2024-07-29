@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-crud",
+  "version": "1.0.0",
+  "description": "mysql nodejs crud app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Sindu",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.1"
+  }
+}
